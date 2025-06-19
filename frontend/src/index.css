@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .grid-cols-auto {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: #C2DFE3;
+  }
+  .text-primary {
+    color: #C2DFE3;
+  }
+}
