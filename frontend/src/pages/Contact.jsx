@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='pr-10'>
       <div className='text-center text-2xl pt-10 text-gray-500'>
         <p>CONTACT <span className='text-gray-700 font-medium'>US</span></p>
       </div>

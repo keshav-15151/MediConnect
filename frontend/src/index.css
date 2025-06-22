@@ -19,3 +19,10 @@
     color: #C2DFE3;
   }
 }
+
+@media (max-width : 740px){
+  .active p{
+    color: #18013d;
+    background-color: #C2DFE3;
+  }
+}
