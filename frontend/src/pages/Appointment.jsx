@@ -29,7 +29,7 @@ const Appointment = () => {
       //gettng date with index
       let currentDate = new Date(today);
       currentDate.setDate(today.getDate() + i);
-
+      if (i === 0 && (today.getHours() > 21 || (today.getHours() === 21 && today.getMinutes() > 0))) {continue;}
       //setting endtime of the date with index
       let endTime = new Date()
       endTime.setDate(today.getDate() + i);
